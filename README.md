@@ -5,7 +5,7 @@ This test bench is the container for HW3.
 
 In this homework, you will:
 1. Learn how polymorphism works (some keywords: `interface`, `override`, `abstract`)
-2. Fork a repository from GitHub
+2. Fork the repository from GitHub
 3. Clone the repository to your local machine
 4. Analyze the `IMember` class
 5. Implement the `Member` class with your own information (see below for ID part and naming of the class)
