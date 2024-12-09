@@ -23,6 +23,12 @@ public class Runner {
     }
 
     private static void registerMembers() {
-        // Register yourself here...
+        Uye uye1 = new Uye();
+        uye1.Name="DURU AVCI";
+        uye1.SubTeam="CELESTIAL";
+        uye1.Id="294";
+        uye1.NetworkId=999;
+        registerMember(uye1);
+
     }
 }
