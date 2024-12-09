@@ -24,5 +24,6 @@ public class Runner {
 
     private static void registerMembers() {
         // Register yourself here...
+        // Testbench members, please add your name, sub-team, and network ID
     }
 }
