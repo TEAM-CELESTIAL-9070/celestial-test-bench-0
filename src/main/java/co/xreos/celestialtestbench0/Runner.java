@@ -1,7 +1,10 @@
 package co.xreos.celestialtestbench0;
 
 import co.xreos.celestialtestbench0.member.entities.IMember;
+import co.xreos.celestialtestbench0.member.registry.Implement;
 import co.xreos.celestialtestbench0.member.registry.MemberRegistry;
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
@@ -24,5 +27,7 @@ public class Runner {
 
     private static void registerMembers() {
         // Register yourself here...
+        Implement SevayYavas = new Implement();
+        registry.registerMember(SevayYavas);
     }
 }
