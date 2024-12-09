@@ -1,8 +1,8 @@
 package co.xreos.celestialtestbench0;
 
 import co.xreos.celestialtestbench0.member.entities.IMember;
-import co.xreos.celestialtestbench0.member.registry.Implement;
 import co.xreos.celestialtestbench0.member.registry.MemberRegistry;
+import co.xreos.celestialtestbench0.member.registry.SevayYavas;
 
 import java.util.List;
 
@@ -25,7 +25,7 @@ public class Runner {
 
     private static void registerMembers() {
         // Register yourself here...
-        Implement SevayYavas = new Implement();
+        SevayYavas SevayYavas = new SevayYavas();
         registry.registerMember(SevayYavas);
     }
 
