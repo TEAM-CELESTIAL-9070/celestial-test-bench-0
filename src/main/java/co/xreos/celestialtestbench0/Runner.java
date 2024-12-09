@@ -23,6 +23,28 @@ public class Runner {
     }
 
     private static void registerMembers() {
-        // Register yourself here...
+        IMember HarunCoban;
+        HarunCoban = new IMember() {
+            @Override
+            public String getName() {
+                return "Harun Çoban";
+            }
+
+            @Override
+            public String getSubTeam() {
+                return "Yazilim";
+            }
+
+            @Override
+            public String getId() {
+                return "290";
+            }
+
+            @Override
+            public long getNetworkId() {
+                return 0;
+            }
+        };
+        registry.registerMember(HarunCoban);
     }
 }
