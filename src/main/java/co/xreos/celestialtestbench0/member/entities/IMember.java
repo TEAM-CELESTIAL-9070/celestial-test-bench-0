@@ -4,5 +4,10 @@ public interface IMember {
     String getName();
     String getSubTeam();
     String getId();
+
     long getNetworkId();
+
+
+
+
 }
