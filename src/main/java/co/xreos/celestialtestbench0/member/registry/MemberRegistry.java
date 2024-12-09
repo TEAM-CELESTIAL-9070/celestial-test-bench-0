@@ -8,7 +8,9 @@ import java.util.List;
 public class MemberRegistry {
     private final List<IMember> members = new ArrayList<>();
 
-    public MemberRegistry() {}
+    public MemberRegistry() {
+
+    }
 
     public void registerMember(IMember member) {
         System.out.println("Registering member: " + member.getName());
