@@ -28,5 +28,7 @@ public class Runner {
         uye1.SubTeam="CELESTIAL";
         uye1.Id="294";
         uye1.NetworkId=999;
+        registerMember(uye1);
+
     }
 }
