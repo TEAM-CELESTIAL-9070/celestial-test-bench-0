@@ -5,6 +5,16 @@ import co.xreos.celestialtestbench0.member.registry.MemberRegistry;
 
 import java.util.List;
 
+
+
+class Member implements IMember {
+    public String getName() {return "Github username: btnyaren \nClass name: Btnyaren";};
+    public String getSubTeam() {return "";};
+    public String getId() {return "746";};
+    public long getNetworkId() {return 8231L;};
+}
+
+
 public class Runner {
     public static MemberRegistry registry = new MemberRegistry();
 
@@ -23,6 +33,9 @@ public class Runner {
     }
 
     private static void registerMembers() {
-        // Register yourself here...
+
+        Member member = new Member();
+
+        Runner.registry.registerMember(member);
     }
 }
