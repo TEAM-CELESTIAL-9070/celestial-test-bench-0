@@ -2,6 +2,8 @@ package co.xreos.celestialtestbench0;
 
 import co.xreos.celestialtestbench0.member.entities.IMember;
 import co.xreos.celestialtestbench0.member.registry.MemberRegistry;
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
@@ -24,5 +26,30 @@ public class Runner {
 
     private static void registerMembers() {
         // Register yourself here...
+        IMember SevayYavas = new IMember() {
+            @Override
+            public String getName() {
+                return "SevayYavas";
+            }
+
+            @Override
+            public String getSubTeam() {
+                return "CELESTIAL";
+            }
+
+            @NotNull
+            @Contract(pure = true)
+            @Override
+            public String getId() {
+                return "679";
+            }
+
+            @Override
+            public long getNetworkId() {
+                return 0;
+            }
+        };
+
+        registry.registerMember(SevayYavas);
     }
 }
