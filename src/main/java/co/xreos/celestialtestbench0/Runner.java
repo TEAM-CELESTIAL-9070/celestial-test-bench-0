@@ -2,6 +2,7 @@ package co.xreos.celestialtestbench0;
 
 import co.xreos.celestialtestbench0.member.entities.IMember;
 import co.xreos.celestialtestbench0.member.registry.MemberRegistry;
+import co.xreos.celestialtestbench0.member.entities.HarunCoban;
 
 import java.util.List;
 
@@ -23,28 +24,7 @@ public class Runner {
     }
 
     private static void registerMembers() {
-        IMember HarunCoban;
-        HarunCoban = new IMember() {
-            @Override
-            public String getName() {
-                return "Harun Çoban";
-            }
-
-            @Override
-            public String getSubTeam() {
-                return "CELESTIAL";
-            }
-
-            @Override
-            public String getId() {
-                return "290";
-            }
-
-            @Override
-            public long getNetworkId() {
-                return 0;
-            }
-        };
+        HarunCoban HarunCoban = new HarunCoban();
         registry.registerMember(HarunCoban);
     }
 }
