@@ -1,12 +1,16 @@
 package co.xreos.celestialtestbench0;
 
+
+
+import co.xreos.celestialtestbench0.member.entities.BatuhanCengiz;
 import co.xreos.celestialtestbench0.member.entities.IMember;
 import co.xreos.celestialtestbench0.member.registry.MemberRegistry;
+
 
 import java.util.List;
 
 public class Runner {
-    public static MemberRegistry registry = new MemberRegistry();
+    public static MemberRegistry registry = new MemberRegistry() {};
 
     public static void main(String[] args) {
         System.out.println("Hello, Celestial Testbench 0!");
@@ -24,5 +28,7 @@ public class Runner {
 
     private static void registerMembers() {
         // Register yourself here...
+        BatuhanCengiz batuhanCengiz = new BatuhanCengiz();
+        registry.registerMember(batuhanCengiz);
     }
 }
