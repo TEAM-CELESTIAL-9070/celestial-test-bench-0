@@ -26,5 +26,6 @@ public class Runner {
     private static void registerMembers() {
         HarunCoban HarunCoban = new HarunCoban();
         registry.registerMember(HarunCoban);
+
     }
 }
