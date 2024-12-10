@@ -10,7 +10,7 @@ public class KaanKanyilmaz implements IMember {
         return "202";
     }
     public String getSubTeam(){
-        return "Celestial";
+        return "frc yazilim";
     }
     public long getNetworkId(){
         return 0;
