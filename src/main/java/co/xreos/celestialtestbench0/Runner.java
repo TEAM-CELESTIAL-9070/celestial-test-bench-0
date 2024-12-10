@@ -1,5 +1,6 @@
 package co.xreos.celestialtestbench0;
 
+import co.xreos.celestialtestbench0.member.entities.ElifnazCingil;
 import co.xreos.celestialtestbench0.member.entities.IMember;
 import co.xreos.celestialtestbench0.member.registry.MemberRegistry;
 
@@ -22,7 +23,9 @@ public class Runner {
         }
     }
 
+
     private static void registerMembers() {
-        // Register yourself here...
+        IMember elifnaz = new ElifnazCingil();
+        registry.registerMember(elifnaz);
     }
 }
