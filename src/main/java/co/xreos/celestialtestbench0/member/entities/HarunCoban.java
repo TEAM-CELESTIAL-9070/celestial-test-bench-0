@@ -1,4 +1,9 @@
+
 package co.xreos.celestialtestbench0.member.entities;
+
+
+
+
 
 public class HarunCoban implements IMember{
     public String getName() {

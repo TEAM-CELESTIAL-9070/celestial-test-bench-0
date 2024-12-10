@@ -2,6 +2,8 @@ package co.xreos.celestialtestbench0;
 
 import co.xreos.celestialtestbench0.member.entities.IMember;
 import co.xreos.celestialtestbench0.member.registry.MemberRegistry;
+
+
 import co.xreos.celestialtestbench0.member.entities.HarunCoban;
 
 import java.util.List;
@@ -24,6 +26,9 @@ public class Runner {
     }
 
     private static void registerMembers() {
+
+
+
         HarunCoban HarunCoban = new HarunCoban();
         registry.registerMember(HarunCoban);
 
