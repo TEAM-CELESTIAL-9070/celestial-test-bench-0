@@ -1,6 +1,7 @@
 package co.xreos.celestialtestbench0;
 
 import co.xreos.celestialtestbench0.member.entities.IMember;
+import co.xreos.celestialtestbench0.member.entities.egetahakat;
 import co.xreos.celestialtestbench0.member.registry.MemberRegistry;
 
 import java.util.List;
@@ -24,6 +25,6 @@ public class Runner {
 
     private static void registerMembers() {
         // Register yourself here...
-        // EgeTahaKAT, 128825340
+        registry.registerMember(new egetahakat());
     }
 }
