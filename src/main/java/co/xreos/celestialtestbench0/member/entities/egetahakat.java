@@ -11,7 +11,7 @@ public class egetahakat implements IMember{
         return name;
     }
     public String getSubTeam() {
-        return id;
+        return "Celestial";
     }
     public long getNetworkId() {
         return 0;
