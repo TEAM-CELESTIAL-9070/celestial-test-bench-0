@@ -1,6 +1,7 @@
 package co.xreos.celestialtestbench0.member.registry;
 
 import co.xreos.celestialtestbench0.member.entities.IMember;
+import co.xreos.celestialtestbench0.member.entities.egetahakat;
 
 import java.util.ArrayList;
 import java.util.List;
