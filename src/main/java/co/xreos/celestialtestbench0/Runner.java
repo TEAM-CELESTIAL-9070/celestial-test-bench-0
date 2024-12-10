@@ -24,6 +24,27 @@ public class Runner {
 
     private static void registerMembers() {
         // Register yourself here...
+        IMember DenizSelli = new IMember() {
+            @Override
+            public String getName() {
 
+                return "DenizSelli";
+            }
+
+            @Override
+            public String getSubTeam() {
+                return "CELESTIAL";
+            }
+
+            @Override
+            public String getId() {
+                return "563";
+            }
+
+            @Override
+            public long getNetworkId() {
+                return 0;
+            }
+        };
     }
 }
