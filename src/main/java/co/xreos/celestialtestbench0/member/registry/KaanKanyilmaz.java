@@ -13,6 +13,6 @@ public class KaanKanyilmaz implements IMember {
         return "frc yazilim";
     }
     public long getNetworkId(){
-        return 0;
+        return 0
     }
 }
