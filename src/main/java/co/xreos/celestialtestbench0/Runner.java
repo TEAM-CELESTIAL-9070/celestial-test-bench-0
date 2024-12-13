@@ -25,6 +25,32 @@ public class Runner {
     }
 
     private static void registerMembers() {
+        // Register yourself here...
+IMember AhmetKeremKuru = new IMember() {
+    @Override
+    public String getName() {
+        return "First Name: Ahmet Kerem " +
+                "Last Name: Kuru" +
+                "Class Name: AhmetKeremKuru";
+    }
+
+    @Override
+    public String getSubTeam() {
+        return "";
+    }
+
+    @Override
+    public String getId() {
+        return "AKK-wq";
+    }
+
+    @Override
+    public long getNetworkId() {
+        return 0;
+    }
+};
+
+registry.registerMember(AhmetKeremKuru);
         YasarKaganTasdemir YasarKaganTasdemir = new YasarKaganTasdemir();
         registry.registerMember(YasarKaganTasdemir);
         SevayYavas SevayYavas = new SevayYavas();
