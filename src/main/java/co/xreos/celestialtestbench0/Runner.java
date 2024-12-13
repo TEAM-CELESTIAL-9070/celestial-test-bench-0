@@ -2,6 +2,8 @@ package co.xreos.celestialtestbench0;
 
 import co.xreos.celestialtestbench0.member.entities.IMember;
 import co.xreos.celestialtestbench0.member.registry.MemberRegistry;
+import co.xreos.celestialtestbench0.member.registry.YasarKaganTasdemir;
+import co.xreos.celestialtestbench0.member.registry.SevayYavas;
 
 import java.util.List;
 
@@ -33,9 +35,40 @@ public class Runner {
     }
 
     private static void registerMembers() {
-
         Member member = new Member();
 
         Runner.registry.registerMember(member);
+        // Register yourself here...
+IMember AhmetKeremKuru = new IMember() {
+    @Override
+    public String getName() {
+        return "First Name: Ahmet Kerem " +
+                "Last Name: Kuru" +
+                "Class Name: AhmetKeremKuru";
     }
+
+    @Override
+    public String getSubTeam() {
+        return "";
+    }
+
+    @Override
+    public String getId() {
+        return "AKK-wq";
+    }
+
+    @Override
+    public long getNetworkId() {
+        return 0;
+    }
+};
+
+registry.registerMember(AhmetKeremKuru);
+        YasarKaganTasdemir YasarKaganTasdemir = new YasarKaganTasdemir();
+        registry.registerMember(YasarKaganTasdemir);
+        SevayYavas SevayYavas = new SevayYavas();
+        registry.registerMember(SevayYavas);
+    }
+
+
 }
